@@ -4,22 +4,22 @@ $:.unshift lib unless $:.include?(lib)
 
 require 'country-list/version'
 
-Gem::Specification.new do |s|
-  s.name = 'country-list-turboladen'
-  s.version = CountryList::VERSION
+Gem::Specification.new do |spec|
+  spec.name = 'country-list-turboladen'
+  spec.version = CountryList::VERSION
 
-  s.homepage = %q{https://github.com/turboladen/country-list}
-  s.authors = ['mm1', 'Steve Loveless']
-  s.summary = %q{List of all countries with names from ISO 3166-1 with iso alpha-2, iso alpha3 and numeric}
-  s.description = s.summary
-  s.email = %w{steve.loveless@gmail.com}
-  s.licenses = %w{MIT}
+  spec.homepage = %q{https://github.com/turboladen/country-list}
+  spec.authors = ['mm1', 'Steve Loveless']
+  spec.summary = %q{List of all countries with names from ISO 3166-1 with iso alpha-2, iso alpha3 and numeric}
+  spec.description = spec.summary
+  spec.email = %w{steve.loveless@gmail.com}
+  spec.licenses = %w{MIT}
 
-  s.files         = `git ls-files`.split($/)
-  s.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
-  s.test_files    = spec.files.grep(%r{^(test|spec|features)/})
-  s.require_paths = %w[lib]
+  spec.files         = `git ls-files`.split($/)
+  spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
+  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
+  spec.require_paths = %w[lib]
 
-  s.add_development_dependency 'bundler', '~> 1.3'
-  s.add_development_dependency 'rake'
+  spec.add_development_dependency 'bundler', '~> 1.3'
+  spec.add_development_dependency 'rake'
 end
