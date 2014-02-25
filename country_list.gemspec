@@ -2,13 +2,13 @@
 lib = File.expand_path('lib/', File.dirname(__FILE__))
 $:.unshift lib unless $:.include?(lib)
 
-require 'country-list/version'
+require 'country_list/version'
 
 Gem::Specification.new do |spec|
-  spec.name = 'country-list-turboladen'
+  spec.name = 'country_list'
   spec.version = CountryList::VERSION
 
-  spec.homepage = %q{https://github.com/turboladen/country-list}
+  spec.homepage = %q{https://github.com/turboladen/country_list}
   spec.authors = ['mm1', 'Steve Loveless']
   spec.summary = %q{List of all countries with names from ISO 3166-1 with iso alpha-2, iso alpha3 and numeric}
   spec.description = spec.summary
