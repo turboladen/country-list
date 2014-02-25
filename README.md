@@ -1,11 +1,16 @@
 Country List
 =============
 
-This plugins contains 
-a list of Countries with name, iso2, iso3 and numeric for ISO 3166.
+Initially forked from mm1/country-list, but updated to work a little nicer with
+Rails 4, bundler, and such.
 
 It provides a generator that will add a new migration file to your migrations folder
 This file code will create "countries" table and fill it with countries
 
-Also it creates a model called "country"
-to use in your application
+This creates a migration that contains a list of countries based on ISO 3166.
+Each country row contains:
+
+* short name
+* alpha-2 code
+* alpha-3 code
+* numeric code
