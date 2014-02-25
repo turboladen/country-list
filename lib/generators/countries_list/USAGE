@@ -1,0 +1,9 @@
+Description:
+    Creates a migration that will create a "countries" table and populates with
+    short name, ISO codes: alpha-2, alpha-3, and numeric.
+
+Example:
+    rails generate countries_list
+
+    This will create:
+        * db/migrate/create_countries_[timestamp].rb
