@@ -1,0 +1,250 @@
+---
+- :short_name: Afghanistan
+- :short_name: Åland, les Îles
+- :short_name: Albanie
+- :short_name: Algérie
+- :short_name: Samoa américanes
+- :short_name: Andorre
+- :short_name: Angola
+- :short_name: Anguilla
+- :short_name: Antarctique
+- :short_name: Antigua-et-Barbuda
+- :short_name: Argentine
+- :short_name: Arménie
+- :short_name: Aruba
+- :short_name: Australie
+- :short_name: Autriche
+- :short_name: Azerbaïdjan
+- :short_name: Bahamas
+- :short_name: Bahreïn
+- :short_name: Bangladesh
+- :short_name: Barbade
+- :short_name: Bélarus
+- :short_name: Belgique
+- :short_name: Belize
+- :short_name: Bénin
+- :short_name: Bermudes
+- :short_name: Bhoutan
+- :short_name: Bolivie, l'État plurinational de la
+- :short_name: Bonaire, Saint-Eustache et Saba
+- :short_name: Bosnia-Herzégovine
+- :short_name: Botswana
+- :short_name: Bouvet, l'Île
+- :short_name: Brésil
+- :short_name: Indien, le Territoire britannique de l'océan
+- :short_name: Brunei
+- :short_name: Bulgarie
+- :short_name: Burkina
+- :short_name: Burundi
+- :short_name: Cambodge
+- :short_name: Cameroun
+- :short_name: Canada
+- :short_name: Cap-Vert
+- :short_name: Caïmans, les Îles
+- :short_name: République centrafricaine
+- :short_name: Tchad
+- :short_name: Chili
+- :short_name: Chine
+- :short_name: Christmas, l'Île
+- :short_name: Cocos (Keeling), les Îles
+- :short_name: Colombie
+- :short_name: Comoroes
+- :short_name: Congo
+- :short_name: Congo, la République démocratique du
+- :short_name: Cook, les Îles
+- :short_name: Costa Rica
+- :short_name: Côte d'Ivoire
+- :short_name: Croatie
+- :short_name: Cuba
+- :short_name: Curaçao
+- :short_name: Chypre
+- :short_name: tchèque, la République
+- :short_name: Danemark
+- :short_name: Djibouti
+- :short_name: Dominique
+- :short_name: dominicaine, la République
+- :short_name: Équateur
+- :short_name: Égypte
+- :short_name: Salvador
+- :short_name: Guinée équatoriale
+- :short_name: Érytrée
+- :short_name: Estonie
+- :short_name: Éthiopie
+- :short_name: Falkland (Malouines), les Îles
+- :short_name: Féroe, les Îles
+- :short_name: Fidji
+- :short_name: Finlande
+- :short_name: France
+- :short_name: Guyane française
+- :short_name: Polynésie française
+- :short_name: Terres australes françaises
+- :short_name: Gabon
+- :short_name: Gambie
+- :short_name: Géorgie
+- :short_name: Allemagne
+- :short_name: Ghana
+- :short_name: Gibraltar
+- :short_name: Grèce
+- :short_name: Groenland
+- :short_name: Grenade
+- :short_name: Guadeloupe
+- :short_name: Guam
+- :short_name: Guatemala
+- :short_name: Guernesey
+- :short_name: Guinée
+- :short_name: Guineé-Bissau
+- :short_name: Guyana
+- :short_name: Haïti
+- :short_name: Heard-et-Îles MacDonald, l'Île
+- :short_name: Saint-Siège, État de la Cité du Vatican
+- :short_name: Honduras
+- :short_name: Hong Kong
+- :short_name: Hongrie
+- :short_name: Iseland
+- :short_name: Inde
+- :short_name: Indonésie
+- :short_name: Iran, République Islamizue d'
+- :short_name: Iraq
+- :short_name: Irlande
+- :short_name: Île de Man
+- :short_name: Israël
+- :short_name: Italie
+- :short_name: Jamaïque
+- :short_name: Japon
+- :short_name: Jersey
+- :short_name: Jordanie
+- :short_name: Kazakhstan
+- :short_name: Kenya
+- :short_name: Kiribati
+- :short_name: Corée, la République populaire démocratique de
+- :short_name: Corée, la République de
+- :short_name: Koweït
+- :short_name: Kirghizistan
+- :short_name: Lao, République démocratique populaire
+- :short_name: Lettonie
+- :short_name: Liban
+- :short_name: Lesotho
+- :short_name: Libéria
+- :short_name: Libye
+- :short_name: Liechtenstein
+- :short_name: Lituanie
+- :short_name: Luxembourg
+- :short_name: Macao
+- :short_name: Macédonie, l'ex-République yougoslave de
+- :short_name: Madagascar
+- :short_name: Malawi
+- :short_name: Malaisie
+- :short_name: Maldives
+- :short_name: Mali
+- :short_name: Malte
+- :short_name: Marshall, Îles
+- :short_name: Martinique
+- :short_name: Mauritanie
+- :short_name: Maurice
+- :short_name: Mayotte
+- :short_name: Mexique
+- :short_name: Micronésie, États fédérés de
+- :short_name: Moldova, République de
+- :short_name: Monaco
+- :short_name: Mongolie
+- :short_name: Monténégro
+- :short_name: Montserrat
+- :short_name: Maroc
+- :short_name: Mozambique
+- :short_name: Myanmar
+- :short_name: Namibie
+- :short_name: Nauru
+- :short_name: Népal
+- :short_name: Pays-Bas
+- :short_name: Nouvelle-Calédonie
+- :short_name: Nouvelle-Zélande
+- :short_name: Nicaragua
+- :short_name: Niger
+- :short_name: Nigéria
+- :short_name: Niue
+- :short_name: Norfolk, l'Île
+- :short_name: Mariannes du Nord, les Îles
+- :short_name: Norvège
+- :short_name: Oman
+- :short_name: Pakistan
+- :short_name: Palaos
+- :short_name: Palestine, État de
+- :short_name: Panama
+- :short_name: Papouasie-Nouvelle-Guinée
+- :short_name: Paraguay
+- :short_name: Pérou
+- :short_name: Philippines
+- :short_name: Pitcairn
+- :short_name: Pologne
+- :short_name: Portugal
+- :short_name: Porto Rico
+- :short_name: Qatar
+- :short_name: Réunion, La
+- :short_name: Roumanie
+- :short_name: Russie, la Fédération de
+- :short_name: Rwanda
+- :short_name: Saint-Barthélemy
+- :short_name: Saint-Hélène, Ascension et Tristan da Cunha
+- :short_name: Saint-Kitts-et-Nevis
+- :short_name: Sainte-Lucie
+- :short_name: Saint-Martin (partie française)
+- :short_name: Saint-Pierre-et-Miquelon
+- :short_name: Saint-Vincent-et-les-Grenadines
+- :short_name: Samoa
+- :short_name: Saint-Martin
+- :short_name: Sao Tomé-et-Principe
+- :short_name: Arabie saoudite
+- :short_name: Sénégal
+- :short_name: Serbie
+- :short_name: Seychelles
+- :short_name: Sierra Leone
+- :short_name: Singapour
+- :short_name: Saint-Martin (partie néerlandaise)
+- :short_name: Slovaquie
+- :short_name: Slovénie
+- :short_name: Salomon, Îles
+- :short_name: Somalie
+- :short_name: Afrique du Sud
+- :short_name: Géorgie du Sud-et-les Îles Sandwich du Sud
+- :short_name: Soudan du Sud
+- :short_name: Espagne
+- :short_name: Sri Lanka
+- :short_name: Soudan
+- :short_name: Suriname
+- :short_name: Svalbard et l'Île Jan Mayen
+- :short_name: Swaziland
+- :short_name: Suède
+- :short_name: Suisse
+- :short_name: République arabe syrienne
+- :short_name: Taïwan, Province de Chine
+- :short_name: Tadjikistan
+- :short_name: Tanzanie, République-Unie de
+- :short_name: Thaïlande
+- :short_name: Timor-Leste
+- :short_name: Togo
+- :short_name: Tokelau
+- :short_name: Tonga
+- :short_name: Trinité-et-Tobago
+- :short_name: Tunisie
+- :short_name: Turquie
+- :short_name: Turkménistan
+- :short_name: Turks-et-Cacïos, les îles
+- :short_name: Tuvalu
+- :short_name: Ouganda
+- :short_name: Ukraine
+- :short_name: Émirats arabes unis
+- :short_name: Royaume-Uni
+- :short_name: Étas-Unis
+- :short_name: Îles mineures éloignées des Étas-Unis
+- :short_name: Uruguay
+- :short_name: Ouzbékistan
+- :short_name: Vanuatu
+- :short_name: Venezuela, République bolivarienne du
+- :short_name: Viet Nam
+- :short_name: Vierges britanniques, les îles
+- :short_name: Vierges des Étas-Unis, les îles
+- :short_name: Wallis-et-Futuna
+- :short_name: Sahara occidental
+- :short_name: Yémen
+- :short_name: Zambie
+- :short_name: Zimbabwe
