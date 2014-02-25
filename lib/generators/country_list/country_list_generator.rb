@@ -1,6 +1,6 @@
 require 'rails/generators/base'
 
-class CountriesListGenerator < Rails::Generators::Base
+class CountryListGenerator < Rails::Generators::Base
   include Rails::Generators::Migration
 
   source_root File.expand_path('../templates', __FILE__)
@@ -10,11 +10,25 @@ class CountriesListGenerator < Rails::Generators::Base
   end
 
   def copy_countries_migration
-    migration_template 'migration.rb', 'db/migrate/create_countries_list'
+    migration_template 'migration.rb', 'db/migrate/create_countries'
   end
 
   def generate_model
     invoke 'active_record:model', ['country'], migration: false unless model_exists? && behavior == :invoke
+  end
+
+  def add_translatable_to_model
+    if File.exist?('app/models/country.rb')
+      inject_into_file 'app/models/country.rb', after: 'class Country < ActiveRecord::Base' do
+        "\n  translates :short_name, fallbacks_for_empty_translations: true"
+      end
+    end
+  end
+
+  def copy_yaml_files
+    copy_file 'codes.yml', 'db/countries/codes.yml'
+    copy_file 'en.yml', 'db/countries/en.yml'
+    copy_file 'fr.yml', 'db/countries/fr.yml'
   end
 
   def copy_countries_seeds
@@ -26,7 +40,9 @@ class CountriesListGenerator < Rails::Generators::Base
       %q{
 desc 'Create the countries table and seed it with data'
 task seed_countries: :environment do
-  load 'db/seed_countries.rb'
+  require Rails.root + 'db/seed_countries'
+  CountryList.make_en
+  CountryList.make_fr
 end
       }
     end

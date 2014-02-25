@@ -1,0 +1,22 @@
+Description:
+    Creates a migration that will create a "countries" table, a Country model,
+    and a rake task for seeding the table with:
+
+    * short_name: the ISO-given short name
+    * alpha2: the ISO-given 2-character code
+    * alpha3: the ISO-given 3-character code
+    * numeric: the ISO-given numeric code
+
+    The rake task will seed all available translations.
+
+Example:
+    rails generate countries_list
+
+    This will create:
+        * app/models/country.rb
+        * db/migrate/[timestamp]_create_countries.rb
+        * db/seed_countries.rb
+        * db/countries/codes.yml
+        * db/countries/en.yml
+        * db/countries/fr.yml
+        * lib/seed_countries.rake
